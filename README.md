@@ -1,6 +1,6 @@
 ## Java项目学习
 
-java外卖业务项目学习
+java商店业务项目学习
 
 - 使用SpringBoot Redis MyBatis MySQL SpringCache WebSocket Nginx SpringTask Swagger JWT 
 - 前端微信小程序
@@ -75,10 +75,7 @@ java外卖业务项目学习
 - 导入接口文档
 - 调试加全局参数token
 
-## 阿里云oss对象存储
 
-- 配置yml文件 application-dev版本 application.yml调用${}
-- ConditionalOnMissingBean 只存在一个此类bean
 
 
 ## 菜品以及分类CRUD
@@ -98,10 +95,6 @@ HttpClient HttpClients CloseableHttpClient HttpGet HttpPost
 - CloseableHttpClient HttpGet CloseableHttpResponse getStatusLine().getStatus() getEntity()
 
 
-## 微信登录
-
-- wx.login()获取code wx.request()发送code到后端
-- 后端服务 调用微信接口服务 HttpClient请求 appid secret js_code grant_type
 
 
 ## Spring Cache 缓存
@@ -116,10 +109,7 @@ HttpClient HttpClients CloseableHttpClient HttpGet HttpPost
 ## 用户购物车，下单，地址本CRUD
 
 
-## 微信支付
 
-- JSAPI 
-- SpringTask任务调度
 - coplar内网穿透 用来微信向后端推送支付结果请求
 
 
@@ -130,12 +120,7 @@ HttpClient HttpClients CloseableHttpClient HttpGet HttpPost
 - @Scheduled(cron = "  ")
 
 
-## 百度地图API校验配送距离
 
-- application.yml配置ak和地址
-- @Values 得到配置文件值
-- HttpClient向API发送请求
-- 解析json
 
 
 ## WebSocket
